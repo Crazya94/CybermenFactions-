@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Cybermen Factions+</name>
+  <author>Crazya</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+
+  <packageId>Crazya.Cybermen.Factions</packageId>
+  <description>
+    This mods adds the ablitiy to play the popular race from the british show, Doctor who, the Cybermen.
+    You are able to play Cybermen as well as have a faction on the map to fight against.
+    This mod requires a new save or a faction mod that lets you load factions into your current game.
+    
+    This mod also lets you create an upgrade kit to convert your pawns into Cybermen. Please note, this function is a work in progress and can change. Currently it adds only psychopath to the traits. 
+
+    Credits:
+    MVP: Ogliss- He has been there every step of the way and taught me everything I know, super grateful for the time he spares to assit me! He also created the function of converting your inferior humans into Cybermen!
+    Art: All textures are created by Odz!
+    Sound: Sound has been taken from SWDTeam (minecraft doctor who mod)
+
+
+     Know issues:
+     A couple of errors can sometimes be thrown during the converstion operation, these can be ignored! (They are harmless). 
+
+    In progress plans:
+    Dalek Faction and playable race is in progress. (hoping to include a Human Dalek form!- maybe on its own)
+    Doctor who based Weapon mod pack. (cybermen and Dalek)
+
+    Future plans:
+    Maybe more Doctor who races.
+    Maybe some doctors?
+
+    This is my first mod, so please know this is still a work in progress.
+    
+    License:
+    Feel free to edit or update this mod in the event I vanish. all I ask is give the correct credits!
+  </description>
+
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/RimWorld-CCL-Reborn/AlienRaces</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadBefore>
+
+  </loadBefore>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+</ModMetaData>
