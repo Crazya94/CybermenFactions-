@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Cyberupgradekit</defName>
+    <label>Cyber Upgrade</label>
+    <labelNoun>a Cyber Upgrade</labelNoun>
+    <description>An installed cyber Upgrade kit.</description>
+    <tendable>false</tendable>
+    <comps>
+		<li Class="HediffCompRaceChanger.HediffCompProperties_ChangeRace">
+		  <raceDef>Cybermen</raceDef>
+		  <bodyTypeDef>Male</bodyTypeDef>
+		  <traitsToAdd>
+			<li>
+				<def>Psychopath</def>
+				<degree>0</degree>
+				<Chance>1</Chance>
+				<replaceIfFull>True</replaceIfFull>
+			</li>
+		  </traitsToAdd>
+		  <traitsToRemove>
+			<li>
+			  <def>Kind</def>
+			  <Chance>1.0</Chance>
+			</li>
+		  </traitsToRemove>
+		</li>
+    </comps>
+  </HediffDef>
+</Defs>

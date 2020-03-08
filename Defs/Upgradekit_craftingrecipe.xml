@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>Cyberupgradekit</defName>
+    <label>Cyber Upgrade Kit</label>
+    <description>A kit used to upgrade a human into its superior form, a cyberman.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>installCyberupgradekit</RecipeDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>3</Gold>
+    </costList>
+    <thingSetMakerTags>
+
+    </thingSetMakerTags>
+    <techHediffsTags Inherit="false">
+      
+    </techHediffsTags>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

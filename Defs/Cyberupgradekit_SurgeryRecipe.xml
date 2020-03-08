@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+  <defName>installCyberupgradekit</defName>
+  <label>install Cyber Upgrade</label>
+  <description>Install a Cyber upgrade kit</description>
+  <descriptionHyperlinks>
+    <ThingDef>Cyberupgradekit</ThingDef>
+  </descriptionHyperlinks>
+  <jobString>Installing Cyber upgrade kit.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Cyberupgradekit</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Cyberupgradekit</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Torso</li>
+  </appliedOnFixedBodyParts>
+  <addsHediff>Cyberupgradekit</addsHediff>
+</RecipeDef>
+ </Defs> 

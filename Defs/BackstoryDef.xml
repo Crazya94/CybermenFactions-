@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AlienRace.BackstoryDef>
+        <defName>Cybermen_Child</defName>
+        <title>Cybermen</title>
+        <titleShort>Cybermen</titleShort>
+        <baseDescription>All Cybermen begin their life as a human, upgraded into the cyborg they become.</baseDescription>
+	    <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+	    <skillGains>
+           <li>
+               <defName>Shooting</defName>
+		       <amount>1</amount>
+           </li>
+		    <li>
+               <defName>Intellectual</defName>
+		       <amount>1</amount>
+           </li>	   
+        </skillGains>
+	    <disallowedTraits>
+              <li>
+                   <defName>Kind</defName>
+             </li>
+			  <li>
+                   <defName>Wimp</defName>
+             </li>
+			  <li>
+                   <defName>Brawler</defName>
+             </li>
+	</disallowedTraits>
+		<spawnCategories>
+      <li>CybermenBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+        <defName>Cyber_Drone</defName>
+        <title>Cryber Drone</title>
+        <titleShort>Drone</titleShort>
+        <baseDescription>A Cybermen Drone is the basic foot soldier of the Cybermen Empire.</baseDescription>
+	    <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+	    <skillGains>
+           <li>
+               <defName>Shooting</defName>
+		       <amount>6</amount>
+           </li>
+		   	<li>
+               <defName>Crafting</defName>
+		       <amount>5</amount>
+           </li>
+		    <li>
+               <defName>Intellectual</defName>
+		       <amount>2</amount>
+           </li>
+		   <li>
+               <defName>Construction</defName>
+		       <amount>3</amount>
+           </li>		   
+        </skillGains>
+	    <disallowedTraits>
+              <li>
+                   <defName>Kind</defName>
+             </li>
+			  <li>
+                   <defName>Wimp</defName>
+             </li>
+			  <li>
+                   <defName>Brawler</defName>
+             </li>
+	</disallowedTraits>
+		<spawnCategories>
+      <li>CybermenBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+        <defName>Cyber_Supreme</defName>
+        <title>Cyber Supreme</title>
+        <titleShort>Supreme</titleShort>
+        <baseDescription>A Cybermen Supreme is a role given to a Cybermen akin to being a commander.</baseDescription>
+	    <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+	    <skillGains>
+           <li>
+               <defName>Shooting</defName>
+		       <amount>8</amount>
+           </li>
+	       <li>
+               <defName>Social</defName>
+		       <amount>4</amount>
+            </li>
+		    <li>
+               <defName>Intellectual</defName>
+		       <amount>3</amount>
+           </li>
+        </skillGains>
+	    <disallowedTraits>
+              <li>
+                   <defName>Kind</defName>
+             </li>
+			  <li>
+                   <defName>Wimp</defName>
+             </li>
+			  <li>
+                   <defName>Brawler</defName>
+             </li>
+	</disallowedTraits>
+		<spawnCategories>
+      <li>CybermenBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+        <defName>Cyber_Strategist</defName>
+        <title>Cyber Strategist</title>
+        <titleShort>Strategist</titleShort>
+        <baseDescription>A Cyber Strategist are Cybermens which specialise in forming and implementing new strategies to defeat their enemies.</baseDescription>
+	    <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+	    <skillGains>
+           <li>
+               <defName>Shooting</defName>
+		       <amount>6</amount>
+           </li>
+		    <li>
+               <defName>Intellectual</defName>
+		       <amount>10</amount>
+           </li>
+        </skillGains>
+	    <disallowedTraits>
+              <li>
+                   <defName>Kind</defName>
+             </li>
+			  <li>
+                   <defName>Wimp</defName>
+             </li>
+			  <li>
+                   <defName>Brawler</defName>
+             </li>
+	</disallowedTraits>
+		<spawnCategories>
+      <li>CybermenBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+        <defName>Cyber_Assault</defName>
+        <title>Assault Cyber</title>
+        <titleShort>Assault</titleShort>
+        <baseDescription>An Assault Cyber is a Cyber which is specialised towards heavier combat.</baseDescription>
+	    <bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+	    <skillGains>
+           <li>
+               <defName>Shooting</defName>
+		       <amount>7</amount>
+           </li>
+		    <li>
+               <defName>Intellectual</defName>
+		       <amount>4</amount>
+           </li>
+		   	<li>
+               <defName>Crafting</defName>
+		       <amount>3</amount>
+           </li>
+        </skillGains>
+	    <disallowedTraits>
+              <li>
+                   <defName>Kind</defName>
+             </li>
+			  <li>
+                   <defName>Wimp</defName>
+             </li>
+			  <li>
+                   <defName>Brawler</defName>
+             </li>
+	</disallowedTraits>
+		<spawnCategories>
+      <li>CybermenBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+</Defs>

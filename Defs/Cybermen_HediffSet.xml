@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffGiverSetDef>
+    <defName>Cybermen_HediffSet</defName>
+    <hediffGivers>
+      <li Class="JecsTools.HediffGiver_StartWithHediff">
+        <hediff>BionicSpine</hediff>
+        <partsToAffect>
+          <li>Spine</li>
+        </partsToAffect>
+        <chance>50</chance>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>

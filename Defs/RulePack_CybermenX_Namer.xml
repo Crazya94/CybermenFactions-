@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>CYA_CybermenX_Namer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[CYA_CybermenX]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>CYA_CybermenX</keyword>
+          <path>NameBanks/CYA_CybermenX</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  
+  
+</Defs>
