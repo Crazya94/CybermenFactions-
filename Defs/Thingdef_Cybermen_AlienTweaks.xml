@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- ====================== RACE THINGDEF ====================== -->
+<AlienRace.ThingDef_AlienRace Name="CyberManRace" ParentName="CyberManBaseRace" Abstract="True">
+    <alienRace>
+        <generalSettings>
+            <alienPartGenerator>
+				<alienskincolorgen Class="ColorGenerator_Single">
+					<color>(0.765,0.765,0.765,1)</color>
+				</alienskincolorgen>        
+				<bodyAddons>
+				</bodyAddons>
+            </alienPartGenerator>
+        </generalSettings>
+    </alienRace>
+</AlienRace.ThingDef_AlienRace>
+
+</Defs>
