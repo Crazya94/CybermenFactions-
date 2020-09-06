@@ -176,7 +176,10 @@
         </relationSettings>
 		 <thoughtSettings>
     <cannotReceiveThoughts>
-	
+	<li>Pain</li>
+    <li>Naked</li>
+    <li>Cold</li>
+    <li>Hot</li>
     </cannotReceiveThoughts>
 	</thoughtSettings>
         <raceRestriction>
