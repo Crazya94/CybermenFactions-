@@ -7,7 +7,6 @@
             <alienslavekinds>
                 <li>
                     <kindDefs>
-                        <li>CybermenSlave</li>
                     </kindDefs>
                     <chance>40.0</chance>
                 </li>
@@ -15,7 +14,6 @@
             <alienrefugeekinds> <!-- pawnkinds listed here will show up as chased refugees for the event -->
                 <li>
                     <kindDefs>
-                        <li>CybermenRefugee</li>
                     </kindDefs>
                     <chance>50.0</chance>
                 </li>
@@ -25,13 +23,12 @@
 				<pawnKindEntries>
 					<li>
                     <kindDefs>
-                        <li>CybermenPlayerColonist</li>
                     </kindDefs>
                     <chance>10.0</chance>
 					</li>
 				</pawnKindEntries>
 					<factionDefs>
-						<li>CybermenPlayerColony</li> 
+						
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -40,13 +37,11 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-								<li>Cybermen_Colonist</li>
                             </kindDefs>
                             <chance>50.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>CybermenPlayerColony</li> 
                     </factionDefs>
                 </li>
             </alienwandererkinds>
@@ -176,10 +171,7 @@
         </relationSettings>
 		 <thoughtSettings>
     <cannotReceiveThoughts>
-	<li>Pain</li>
-    <li>Naked</li>
-    <li>Cold</li>
-    <li>Hot</li>
+	
     </cannotReceiveThoughts>
 	</thoughtSettings>
         <raceRestriction>
@@ -279,7 +271,7 @@
       </li>
     </tools>
     <race>
-      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeMain>Mechanoid</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
@@ -293,7 +285,7 @@
       <meatColor>(0, 0, 128)</meatColor>
       <baseBodySize>1.1</baseBodySize>
       <baseHealthScale>1.25</baseHealthScale>
-      <foodType>OmnivoreHuman</foodType>
+      <foodType>None</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -414,5 +406,20 @@
       <li>MechanoidGunHeavy</li>
     </weaponTags>
   </PawnKindDef>
+  <PawnKindDef>
+<defName>Supreme_Cybermen</defName>
+    <label>Supreme</label>
+    <race>Cybermen</race>
+    <labelPlural>Supremes</labelPlural>
+    <defaultFactionType>TheCybermen</defaultFactionType>
+    <combatPower>400</combatPower>
+    <factionLeader>true</factionLeader>
+    <isFighter>true</isFighter>
+    <itemQuality>Good</itemQuality>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+</PawnKindDef>
   
 </Defs>
